@@ -1,5 +1,7 @@
 class Solution {
-    public static int[] dp = new int[100005];
+    public static int[] dp = new int[100005]; //DP array to store the results of subproblems
+
+    //Recursive function to calulate Fibonacci number
     public static int f(int n) {
         if(n == 0 || n == 1) return n; //It says if the value of n is 0 or 1 return 1
         if(dp[n] != -1) return dp[n]; // if value is not -1 we can directly return ans.
@@ -7,10 +9,13 @@ class Solution {
         return dp[n] = f(n-1) + f(n-2);
         
     }
+
+    // Wrapper function to initiate the calculation
     public int fib(int n){
-        dp = new int[100005];
+        dp = new int[100005]; // Initialize the dp array with -1 to indicate that no subproblem has been solved yet
         Arrays.fill(dp, - 1);
-        return f(n);
+
+        return f(n); //Call the recursive function to calculate the Fibonnaci Number
     }
 }
 
