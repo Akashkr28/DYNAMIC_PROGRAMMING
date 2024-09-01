@@ -38,7 +38,7 @@ class Solution {
 class Solution {
 
     public static int[] c; // global coins array
-    public static int[] dp;
+    public static int[] dp; 
 
     public int f(int amount){
         if (amount < 0) return Integer.MAX_VALUE; // if amt is less than 0 then it's not possible
