@@ -1,6 +1,6 @@
-import java.util.* ;
-import java.io.*; 
-public class Solution{
+import java.util.Arrays;
+
+public class nthFibonacci{
     public static long mod = 1000000007; 
     public static long[] dp;
     public static long f(int i){

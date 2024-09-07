@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Arrays;
+
+class fibionacciNo {
     public static int[] dp = new int[100005]; //DP array to store the results of subproblems
 
     //Recursive function to calulate Fibonacci number

@@ -1,4 +1,7 @@
-class Solution {
+import java.util.Arrays;
+import java.util.HashSet;
+
+class minCostForTkt {
 
     public static int[] c;
     public static int lastDay;

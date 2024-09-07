@@ -1,6 +1,8 @@
 /*RECURSIVE METHOD */
+import java.util.Arrays;
 
-class Solution {
+
+class CoinChange {
 
     public static int[] c; // global coins array
     public static int[] dp;

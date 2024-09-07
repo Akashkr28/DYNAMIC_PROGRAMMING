@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Arrays;
+
+class perfectSquares {
 
     public static int[] c; // global coins array
     public static int[] dp;
